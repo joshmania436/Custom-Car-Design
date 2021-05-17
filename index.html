@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Custom Car Design</title>
+        <script src ='https://aframe.io/releases/1.0.4/aframe.min.js'></script>
+        <script src ='car.js'></script>
+        <script src ='ground.js'></script>
+    </head>
+    <body>
+        <a-scene>
+
+            <!--CAR-->
+            <a-entity id ='car_model' car-model></a-entity>
+            <!---Base/Ground-->
+            <a-entity id ='base' base></a-entity>
+            <!---Camera-->
+            <a-camera
+            look-controls 
+            wasd-controls
+            position ='0 100 250'
+            ></a-camera>
+        </a-scene>
+    </body>
+</html>
