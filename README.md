@@ -7,4 +7,4 @@
 
 **A Preview**
 
-<a href ='https://github.com/joshmania436/Custom-Car-Design/blob/master/assets/car_preview'>Car Preview</a>
+<img src ='https://github.com/joshmania436/Custom-Car-Design/blob/master/assets/car_preview'>Car Preview</img>
